@@ -1,0 +1,6 @@
+ c=0
+        for i in range(1,len(s)):
+            x=ord(s[i])-ord(s[i-1])
+            if(x!=0 and x!=32 and x!=-32):
+                c+=1
+        return c
