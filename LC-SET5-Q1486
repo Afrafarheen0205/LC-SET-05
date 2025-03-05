@@ -1,0 +1,5 @@
+ counter=0
+        arr=[start+2*i for i in range(n)]
+        for j in arr:
+            counter=counter^j
+        return counter
